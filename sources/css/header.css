@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: 'Montserrat-extrabold';
+    src: url('../fonts/Montserrat-ExtraBold.ttf');
+}
+
 /* HEADER */
 
 .header-container {
@@ -20,6 +25,7 @@
     margin-left: 0.5em;
     display: flex;
     margin-right: 5em;
+    font-family: Montserrat-extrabold;
 }
 
 .content-container-header img {
